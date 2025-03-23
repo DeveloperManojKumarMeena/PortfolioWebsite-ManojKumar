@@ -1,0 +1,83 @@
+@media(min-width:900px){
+    body{
+        margin: 0px 2rem;
+    }
+#menu_icon{
+    display: none;
+}  
+nav{
+    align-items: center;
+    
+} 
+.menu{
+    display: flex;
+   
+    gap: 5px;
+} 
+.menubar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+button{
+    background-color: black;
+    color: white;
+}
+.menubar:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    img{
+        filter: contrast(0);
+    }
+}
+
+
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    .textarea{
+        display: flex;
+        flex-direction: column;
+    }
+    .photo{
+        width: 30%;
+    }
+
+
+}
+
+
+.MyProject{
+    height: 100vh;
+    gap: 40px;
+.cardsection{
+    display: flex;
+    gap: 15px;
+}
+}
+.Achivement{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    height: 80vh;
+    .Myachivement{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+}
+.getintouch{
+    .cards{
+       
+        width: 30rem;
+  
+    }
+}
+}
